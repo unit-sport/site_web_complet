@@ -16,7 +16,7 @@ $header-font: "Montserrat", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-// Font-size and line-height
+// Font-size, color and line-height
 $base-size: 16px;
 $base-height: 1.4;
 
@@ -25,11 +25,17 @@ $base-height: 1.4;
  * ------------------------------------- */
 // Scheme
 $red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
+$blue: #114454;
+$yellow: #FFFF00;
 $orange: #E67E22;
 $green: #32B796;
 $purple: #6452BD;
+
+// Blue scale -> lighten ! 
+$blue-one:   lighten($blue, 5%);
+$blue-two: lighten($blue, 10%); 
+$blue-three:   lighten($blue, 15%); 
+$blue-four: lighten($blue, 20%); 
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

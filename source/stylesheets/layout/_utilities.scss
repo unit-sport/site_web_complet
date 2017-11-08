@@ -7,6 +7,10 @@
   padding-top: 8em;
   padding-bottom: 8em;
 }
+.padded-3 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 .bg-red {
   background: $red;
   color: white;
@@ -30,4 +34,10 @@
 .bg-purple {
   background: $purple;
   color: white;
+}
+h2,h3,h4,h5 {
+  color:$blue;
+}
+body {
+  color:$blue;
 }

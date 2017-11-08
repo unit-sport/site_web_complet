@@ -3,21 +3,27 @@
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
 
-// General style
-$font-family-sans-serif:  $base-font;
-$body-bg:                 lighten(#000, 93.5%);
+$input-color: 				$blue;
+$input-border-radius: 		50px;
+$input-color-placeholder: 	$blue;
+
+$body-bg:                 white;
 $font-size-base:          $base-size;
 $line-height-base:        $base-height;
 $headings-font-family:    $header-font;
 
 // Semantic color scheme
 $brand-primary:   $blue;
-$brand-success:   $green;
+$brand-success:   $red;
 $brand-info:      $yellow;
 $brand-danger:    $red;
 $brand-warning:   $orange;
 
 // Buttons / inputs radius
-$border-radius-base:  2px;
-$border-radius-large: 2px;
-$border-radius-small: 2px;
+$border-radius-base:  0px;
+$border-radius-large: 0px;
+$border-radius-small: 0px;
+
+// forms 
+
+
