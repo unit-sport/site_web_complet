@@ -71,4 +71,3 @@ configure :build do
   require_relative "./lib/build_cleaner"
   activate :build_cleaner
 end
-
