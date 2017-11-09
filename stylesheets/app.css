@@ -7894,6 +7894,17 @@ button.close {
  * Bootstrap sass variable
  * (see http://getbootstrap.com/customize/#less-variables)
  * ------------------------------------- */
+#socials i {
+  margin-top: 20px;
+  font-size: 35px; }
+
+#footer a {
+  color: white; }
+  #footer a:hover {
+    color: #FFFF00; }
+#footer h4 {
+  color: #FFFF00; }
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
@@ -7935,7 +7946,7 @@ button.close {
     transition: all 0.3s ease; }
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
-    color: #FDB631;
+    color: #FFFF00;
     background-color: transparent; }
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
@@ -8005,16 +8016,20 @@ button.close {
   padding-top: 8em;
   padding-bottom: 8em; }
 
+.padded-3 {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
 .bg-blue {
-  background: #469AE0;
+  background: #114454;
   color: white; }
 
 .bg-yellow {
-  background: #FDB631;
+  background: #FFFF00;
   color: white; }
 
 .bg-orange {
@@ -8028,6 +8043,94 @@ button.close {
 .bg-purple {
   background: #6452BD;
   color: white; }
+
+h2, h3, h4, h5 {
+  color: #114454; }
+
+body {
+  color: #114454; }
+
+.btn {
+  border-radius: 2px;
+  border: none; }
+
+.btn-primary {
+  background-color: #155569;
+  color: white; }
+  .btn-primary:hover {
+    background-color: #114454;
+    color: #FFFF00; }
+
+.btn-info {
+  background-color: #FFFF00;
+  color: #114454;
+  border: 1px solid #114454; }
+  .btn-info:hover {
+    background-color: #FFFF00;
+    color: #114454; }
+
+.form-control {
+  border-radius: 2px; }
+
+.form-control-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  height: 44px;
+  color: #114454; }
+
+.wrapper-home {
+  background: url("../images/image-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 35vh;
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  .wrapper-home h1 {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 52px; }
+  .wrapper-home p {
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 25px; }
+
+.entreprises {
+  position: absolute;
+  bottom: 50px;
+  left: 10%;
+  right: 10%; }
+  .entreprises img {
+    height: 50px; }
+
+#logo img {
+  height: 200px;
+  position: absolute;
+  top: 25px;
+  left: 25px; }
+
+#testimonials-index {
+  background: linear-gradient(135deg, rgba(255, 255, 0, 0.5) 0%, rgba(255, 255, 0, 0.9) 30%, rgba(255, 255, 0, 0.5) 95%), url("../images/temoignages.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
+
+#benefices-index img {
+  border-radius: 50px;
+  border: 3px solid #114454;
+  height: 100px; }
+
+#contact-index {
+  background: url("../images/background-contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
+  #contact-index h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #000; }
+  #contact-index label {
+    color: #FFFF00; }
 
 /*
 ==============================================
