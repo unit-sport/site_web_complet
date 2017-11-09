@@ -1,0 +1,207 @@
+---
+title: Le Wagon Middleman boilerplate
+description: 
+---
+
+<div id="welcome-index" class="text-center padded wrapper-home">
+	<div id="logo">
+		<img src="/images/logo.png" alt="">
+	</div>
+	<h1>
+		UNIT, LA NOUVELLE IMPULSION
+	</h1>
+	<p id="welcome-slogan">
+		POUR UNE ENTREPRISE EN BONNE SANTÉ
+	</p>
+	<div class="padded-3"></div>
+	<div class="mail-demo">
+		<form action="" class="form-inline">
+			<label for="mail-pro-demo"></label>
+			<input type="email" class="form-control form-control-lg" placeholder="Mail professionnel" id="mail-pro-demo" name="Mail pro (demande démo)" onblur="verifMail(this)" required>
+			<button type="submit" class="btn btn-primary btn-lg">Accès gratuit à la démo</button>
+		</form>
+	</div>
+	<div class="entreprises">
+		<ul class="list-inline">
+			<li>
+				<img src="/images/sncf.png" alt="" class="height:40px;">
+			</li>
+			<li>
+				<img src="/images/alptis.png" alt="">
+			</li>
+			<li>
+				<img src="/images/logo-bpi.png" alt="">
+			</li>
+			<li>
+				<img src="/images/logo-incubateur.png" alt="">
+			</li>
+		</ul>
+	</div>
+
+<!--
+	<div class="mail-demo">
+		<div class="form-group row">
+			<label for="mail-pro-demo"></label>
+			<div class="col-sm-3 col-sm-offset-3">
+				<input type="email" class="form-control form-control-lg" placeholder="Mail professionnel" id="mail-pro-demo" name="Mail pro (demande démo)">
+			</div>
+			<div class="col-sm-3 text-left">
+				<button type="submit" class="btn btn-primary btn-lg">Accès gratuit à la démo</button>
+			</div>
+		</div>
+	</div>
+-->
+
+	<!-- Begin MailChimp Signup Form 
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<!-- 
+		<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	
+	<div id="mc_embed_signup">
+	<form action="https://unit-sport.us13.list-manage.com/subscribe/post?u=94de85b124e04fadb2f10d1e5&amp;id=0c890c5700" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div id="mc_embed_signup_scroll">
+		
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Mail professionnel" required>
+	    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
+	    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_94de85b124e04fadb2f10d1e5_0c890c5700" tabindex="-1" value=""></div>
+	    <div class="clear"><input type="submit" value="Accés gratuit à la démo" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+	    </div>
+	</form>
+	</div>
+
+	<!--End mc_embed_signup-->
+
+	<div id="clients">
+		<!-- Mettre les logos des clients : BPI SNCF ALPTIS INCUBATEUR JM + EM -->
+	</div>
+</div>
+
+<div id="value-p-index" class="text-center padded container">
+	<h2>La solution QVT clé en main contre la sédentarité des collaborateurs</h2>
+	<div class="padded-3"></div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<%= image_tag "animateurs.png", style:"width:100px;", class:"text-center" %>
+			<h3>Un coaching qualitatif</h3>
+			<p class="text-justify">Nous sélectionnons les Animateurs à la source, et nous leur assurons des formations continues afin d'attester leur qualité sur le long terme et leur professionnalisme. </p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<%= image_tag "animation.png", style:"width:100px;", class:"text-center" %>
+			<h3>Une pédagogie innovante</h3>
+			<p class="text-justify">Les nombreux services que nous mettons en place, notre expertise et notre savoir-faire va (re)mettre tous vos collaborateurs à la pratique régulière d'un sport. </p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<%= image_tag "logistique.png", style:"width:100px;", class:"text-center" %>
+			<h3>Une logistique simplifiée</h3>
+			<p class="text-justify">Grâce à notre plateforme WEB sécurisée et ergonome, les séances de sport sont facilement organisées. Tout est centralisé et automatisé. </p>
+		</div>
+	</div>
+	<div class="padded-3"></div>
+	<div class="text-center">
+		<a href="#contact-index">
+			<button class="btn btn-lg btn-primary">En savoir plus</button>
+		</a>
+	</div>
+</div>
+
+<div id="testimonials-index" class="testimonials padded text-center">
+	<h2>Ils en parlent mieux que nous</h2>
+	<div class="padded-3"></div>
+	<div class="container">
+		<div class="row">
+		<ul class="list-inline">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<li>
+					<p>Atelier très intéressant ! Exercices simples mais qui apportent beaucoup. Très bonne expérience. A refaire au plus vite !</p>
+					<p><strong>Nathalie, ALPTIS</strong></p>
+				</li>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<li>
+					<p>UNIT me permet d'organiser facilement des séances de sport avec mes collègues. Ca nous permet de nous défouler, et de rencontrer les gens d'autres services qu'on a pas souvent l'occasion de voir...</p>
+					<p><strong>Xavier, SNCF</strong></p>
+				</li>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-offset-sm-3 col-md-4">
+				<li>
+					<p>Tous les coachs UNIT lors de notre semaine bien-être ont été d'un grand professionalisme, et très pédagogues pour des personnes non initiées au sport. Je recommande vivement ! </p>
+					<p><strong>Maud, ALPTIS</strong></p>
+				</li>
+			</div>
+		</ul>
+		</div>
+	</div>
+</div>
+
+<div id="benefices-index" class="text-center padded">
+	<h2>L'animation sportive comme nouveau levier de compétitivité de votre entreprise</h2>
+	<div class="padded-3"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-md-3">
+				<img src="/images/societal.png" alt="">
+				<div class="padded-3">
+				<p><strong>Adoptez une démarche sociétale </strong>grâce à notre approche qui place l’engagement du collaborateur au  coeur du système.</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="/images/attachement.png" alt="">
+				<div class="padded-3">
+				<p><strong>Renforcez l’attachement à votre entreprise</strong> en offrant du bien-être à vos  collaborateurs et en renforçant la cohésion d’équipe.</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="/images/capital.png" alt="">
+				<div class="padded-3">
+				<p><strong>Misez sur le capital humain</strong> en encourageant l’activité physique de vos  collaborateurs.</p>
+			</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<img src="/images/santé.png" alt="">
+				<div class="padded-3">
+				<p><strong>Prenez soin de la santé de vos collaborateurs </strong>en prévenant leurs risques des maladies et minimise les absences.</p>
+			</div>
+			</div>
+			</div>
+			<div class="padded-3"></div>
+			<div class="text-center">
+				<a href="#contact-index">
+					<button class="btn btn-lg btn-primary">En savoir plus</button>
+				</a>
+			</div>
+	</div>
+</div>
+
+<div id="contact-index" class="padded text-center container">
+	<h2>Vous voulez en savoir plus ? Contactez-nous !</h2>
+	<div class="padded-3"></div>
+
+	
+	<form action="https://formspree.io/contact@unit-sport.fr">
+		<div class="form-group row">
+			<label for="inputName" class="col-sm-2 col-form-label text-right">Vos coordonnées</label>
+			<div class="col-sm-9">
+				<input type="text" class="form-control" name="Name" id="inputName" placeholder="Prénom et Nom" required>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputEmail" class="col-sm-2 col-form-label text-right"></label>
+			<div class="col-sm-9">
+		  		<input type="email" class="form-control" name="Mail pro" id="inputEmail" placeholder="Adresse mail professionnelle" onblur="verifMail(this)" required>
+			</div>
+		</div>
+	  	<div class="form-group row">
+	  		<label for="inputDemande" class="col-sm-2 col-form-label text-right">Votre demande</label>
+	  		<div class="col-sm-9">
+	  			<textarea class="form-control" rows="4" id="inputDemande" name="Descriptif de la demande" placeholder="Décrivez votre demande en quelques lignes !" required></textarea>
+	  		</div>
+	  	</div>
+	  	<div class="padded-3">
+		<button type="submit" class="btn btn-info btn-lg">Contactez-nous !</button>
+		</div>
+	</form>	  
+</div>
