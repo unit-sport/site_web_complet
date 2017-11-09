@@ -1,0 +1,18 @@
+// Your footer style
+
+#socials i {
+	margin-top: 20px;
+	font-size:35px;
+}
+
+#footer {
+	a {
+		color: white;
+		&:hover {
+			color: $yellow;
+		}
+	}
+	h4 {
+		color: $yellow;
+	}
+}
